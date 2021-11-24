@@ -241,12 +241,12 @@
             <section class="contacts" id="contacts">
                 <div class="contact-list"></div>
                 <div class="contact-form">
-                    <form>
-                        <h2>Send a Request</h2>
-                        <p>If you want to buy a plant, visit our offline store or the greenhouse, leave us a message.</p>
-                        <input type="text" placeholder="Enter your full name*">
-                        <input type="text" placeholder="Enter your phone number*">
-                        <input type="text" placeholder="Enter your e-mail*">
+                    <h2>Send a Request</h2>
+                    <p>If you want to buy a plant, visit our offline store or the greenhouse, leave us a message.</p>
+                    <form action="https://formspree.io/f/mbjwrlqe" method="POST">
+                        <input type="text" name="user-name" placeholder="Enter your full name*">
+                        <input type="text" name="user-number-phone" placeholder="Enter your phone number*">
+                        <input type="email" name="user-email" placeholder="Enter your e-mail*">
                         <input type="text" placeholder="Leave your message">
                         <input type="submit" value="submit">
                         <input type="reset" value="reset">
